@@ -547,7 +547,7 @@ header
 	height: 40px;
 	text-indent: -9999em;
 	z-index: 99;
-	right: 40px;
+	right: 8px;
 	display: none;
 }
 
@@ -693,9 +693,9 @@ header
 	font-size: 14px;
 }
 
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
 	color: #ff0051;
-}
+} */
 
 .title {
 	margin-top: 10px;
@@ -711,6 +711,20 @@ header
 
 .header-area.header-sticky .nav li a.active {
 	color: #fe3f40;
+}
+
+@media screen and (max-width: 768px) {
+	p {
+		font-size: 8px;
+		line-height: 30px;
+		color: #2a2a2a;
+		margin-left: 3px;
+		line-height: 2;
+	}
+
+	.title h4 {
+		font-size: 12px;
+	}
 }
 
 @media (max-width: 1200px) {
