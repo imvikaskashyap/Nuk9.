@@ -268,7 +268,7 @@ body {
 
 .main-blue-button a {
 	display: inline-block;
-	background-color: #03a4ed;
+	background-color: #fe3f40;
 	font-size: 15px;
 	font-weight: 400;
 	color: #fff;
@@ -1317,9 +1317,11 @@ Blog
 */
 
 .our-blog {
-	position: relative;
-	margin-top: 80px;
-	padding-top: 120px;
+	display: flex;
+	align-items: center;
+	/* position: relative; */
+	/* margin-top: 80px; */
+	/* padding-top: 120px; */
 }
 
 .our-blog .section-heading h2 {
@@ -1348,12 +1350,27 @@ Blog
 	position: relative;
 }
 
+.main_blog {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.main_blog h1 {
+	text-align: center;
+}
+
+.main_blog_lower {
+	display: flex;
+}
+
 .our-blog .left-image .info .inner-content {
 	background-color: #fff;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
-	margin-right: 75px;
-	position: absolute;
+	/* margin-right: 75px; */
+	/* position: absolute; */
 	margin-top: 50px;
 	padding: 30px;
 }
